@@ -18,7 +18,7 @@ export class PortfolioService {
     email: "abhisonar031@gmail.com",
     phone: "+91 8983764263",
     location: "Mumbai, Maharashtra",
-    linkedin: "https://www.linkedin.com/in/abhisheksonar",
+    linkedin: "https://www.linkedin.com/in/abhisonar",
     github: "https://github.com/abhisonar",
     summary: "Lead-caliber Senior Software Engineer with 3+ years of expertise spanning Angular 14 to 22 and Micro-Frontend Architecture in high-traffic enterprise environments. Proven track record of scaling frontend operations, including increasing application efficiency by 40% and boosting team sprint velocity by 20% through standardized code quality gates and AI-assisted workflows. A hands-on mentor and Agile advocate dedicated to bridging complex business logic with modern, high-performance user experiences."
   };
@@ -29,11 +29,11 @@ export class PortfolioService {
     { name: "JavaScript (ES6+)", category: "Languages & Frameworks", iconClass: "devicon-javascript-plain", proficiency: 92 },
     { name: "Node.js", category: "Languages & Frameworks", iconClass: "devicon-nodejs-plain", proficiency: 85 },
     { name: "HTML5 & CSS3/SASS", category: "Languages & Frameworks", iconClass: "devicon-html5-plain", proficiency: 95 },
-    
+
     { name: "Anthropic Claude", category: "AI-Assisted Development", iconClass: "devicon-custom-claude", proficiency: 90 },
     { name: "OpenAI ChatGPT/Codex", category: "AI-Assisted Development", iconClass: "devicon-custom-openai", proficiency: 90 },
     { name: "Prompt Engineering", category: "AI-Assisted Development", iconClass: "devicon-custom-prompt", proficiency: 88 },
-    
+
     { name: "RxJS", category: "Libraries & Tools", iconClass: "devicon-rxjs-plain", proficiency: 95 },
     { name: "NgRx / Redux", category: "Libraries & Tools", iconClass: "devicon-ngrx-plain", proficiency: 88 },
     { name: "Nx Workspace", category: "Libraries & Tools", iconClass: "devicon-custom-nx", proficiency: 90 },
@@ -41,13 +41,13 @@ export class PortfolioService {
     { name: "PrimeNG", category: "Libraries & Tools", iconClass: "devicon-custom-primeng", proficiency: 85 },
     { name: "Git", category: "Libraries & Tools", iconClass: "devicon-git-plain", proficiency: 90 },
     { name: "Docker", category: "Libraries & Tools", iconClass: "devicon-docker-plain", proficiency: 80 },
-    
+
     { name: "Micro-Frontend", category: "Core Competencies", iconClass: "devicon-custom-mfe", proficiency: 92 },
     { name: "API Integration", category: "Core Competencies", iconClass: "devicon-custom-api", proficiency: 95 },
     { name: "Unit Testing", category: "Core Competencies", iconClass: "devicon-custom-test", proficiency: 88 },
     { name: "Agile / Scrum / Jira", category: "Core Competencies", iconClass: "devicon-jira-plain", proficiency: 90 },
     { name: "Code Review", category: "Core Competencies", iconClass: "devicon-custom-reviews", proficiency: 95 },
-    
+
     { name: "AWS (EC2/S3)", category: "Cloud & DevOps", iconClass: "devicon-amazonwebservices-plain-wordmark", proficiency: 75 },
     { name: "CI/CD Pipelines", category: "Cloud & DevOps", iconClass: "devicon-custom-cicd", proficiency: 80 }
   ];
@@ -170,7 +170,7 @@ export class PortfolioService {
           return of(this.mockProfile);
         })
       );
-      
+
       const firestoreProfile = toSignal(profile$);
       // Update local signal when firebase profile emits
       // We can use an effect or directly sync in subscribe, but with toSignal we can track
